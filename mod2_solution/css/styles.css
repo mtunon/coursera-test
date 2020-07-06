@@ -20,6 +20,9 @@ section {
   margin: 2%;
 
    }
+.col-md-12 section  {
+  margin: 8px;
+}
 
 
 /* Simple Responsive Framework. */
@@ -67,12 +70,16 @@ span {
 @media (min-width: 768px) and (max-width:   991px) {
   .col-md-6 {
     float: left;
-    width: 50%;}
+    width: 50%;
 }
+  .col-md-12 {
+    float: right;
+    width: 100%;
+    
 }
 /********** Small devices only **********/
 @media (max-width: 767px) {
-  .col-sm-12 {
+ .col-sm-12 {
     float: left;
     width: 100%;}
 }
